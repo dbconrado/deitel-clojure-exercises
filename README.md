@@ -1,36 +1,32 @@
-# my-stuff
+# deitel-clojure-exercises
 
-FIXME: description
+Este foi meu primeiro contato com clojure.
+Fiz alguns exercícios do cap. 11 do livro do Deitel, 6ª edição.
+
+This is my first attempt using clojure.
+There are some solved exercises from the Deitel's Java How to Program book, 6th ed.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Para rodar este programa, instale clojure e leiningen.
+
+To run this code, you need clojure and leiningen installed.
 
 ## Usage
 
-FIXME: explanation
+Este é o comando para rodar o programa.
+This is the command to run the program:
 
-    $ java -jar my-stuff-0.1.0-standalone.jar [args]
+    $ lein run
 
-## Options
+### Contributing
 
-FIXME: listing of options this app accepts.
+Sinta-se à vontade para contribuir com qualquer refatoração e
+adição de novos exercícios do livro do Deitel.
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Feel free to contrib with any refactoring or new solved exercises
+from Deitel's book.
 
 ## License
 
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License version 1.0.
