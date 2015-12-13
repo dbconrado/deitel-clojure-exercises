@@ -1,5 +1,9 @@
 (ns my-stuff.core
   (:require [seesaw.core :refer :all])
+  (:require [seesaw.graphics :refer :all])
+  (:require [seesaw.color :refer [color]])
+  (:require [seesaw.bind :as b])
+  (:require [my-stuff.exer18 :as exer18])
   (:gen-class))
 
 (def exer8
@@ -105,6 +109,7 @@
 														(str (+ 32 (* 1.8 (read-string (text e)))))))])
 							(label :id :flabel :text "Temperatura em ºF")])))
 
+
 (defn desc "retorna a descrição (doc) da var" [v] (get (meta v) :doc))
 
 (def my-menu
@@ -112,7 +117,7 @@
 		:title "Menu de opções"
 		:on-close :exit
 		:content (vertical-panel
-					:items 	(for [exer [#'exer8 #'exer9 #'exer10 #'exer11 #'exer12]]
+					:items 	(for [exer [#'exer8 #'exer9 #'exer10 #'exer11 #'exer12 #'exer18/exer18]]
 								(button
 									:text (desc exer)
 									:listen [:action
